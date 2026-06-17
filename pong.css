@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background: #111;
+    color: white;
+}
+
+#game {
+    width: 600px;
+    height: 400px;
+    background: black;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+#player, #computer {
+    width: 10px;
+    height: 80px;
+    background: white;
+    position: absolute;
+}
+
+#player {
+    left: 10px;
+    top: 160px;
+}
+
+#computer {
+    right: 10px;
+    top: 160px;
+}
+
+#ball {
+    width: 12px;
+    height: 12px;
+    background: red;
+    position: absolute;
+    border-radius: 50%;
+    top: 200px;
+    left: 300px;
+}
